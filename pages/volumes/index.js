@@ -9,16 +9,16 @@ export default function index() {
       <ul>
         <li>
           <Link href="/volumes/the-fellowship-of-the-ring">
-            the-fellowship-of-the-ring
+            The Fellowship of the Ring
           </Link>
         </li>
         <li>
           <Link href="/volumes/the-return-of-the-king">
-            the-return-of-the-king
+            The Return of the King
           </Link>
         </li>
         <li>
-          <Link href="/volumes/the-two-towers">the-two-towers</Link>
+          <Link href="/volumes/the-two-towers">The Two Towers</Link>
         </li>
       </ul>
       {/* <ul>
