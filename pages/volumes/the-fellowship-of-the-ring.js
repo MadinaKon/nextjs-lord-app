@@ -7,16 +7,15 @@ export default function TheFellowshipOfTheRing() {
     <div>
       {" "}
       <Link href="/volumes">← All Volumes</Link>
-      <h1>Title {volumes.title}</h1>
-      {volumes.map(({ slug, title, description, cover }) => {
-        <>
-          <h1>{title}</h1>
-          <p>{description}</p>
-          <ul>
-            <li></li>
-          </ul>
-        </>;
+      <h1>Title {volumes[0].title}</h1>
+      <p>{volumes[0].description}</p>
+      {volumes.map(({ slug }) => {
+        slug === "the-fellowship-of-the-ring";
       })}
+      <ul>
+        <li>{volumes[0].books[0].ordinal}</li>
+        <li> {volumes[0].books[0].title}</li>
+      </ul>
     </div>
   );
 }
