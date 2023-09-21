@@ -1,5 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 export default function TheTwoTowers() {
-  return <div>the-two-towers</div>;
+  return (
+    <div>
+      {" "}
+      <Link href="/volumes">← All Volumes</Link>the-two-towers
+    </div>
+  );
 }
